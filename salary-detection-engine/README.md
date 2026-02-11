@@ -81,6 +81,16 @@ Confidence Score: 0.99
 
 ----
 
+## How are we evaluating success/failure?
+**This system does inference, it does not include and evaluation pipeline.**
+
+However, majorly 3 metrics can be used:
+* Classification Accuracy for `is_salaried`
+* Median Absolute Error (MAE) for Salary Estimation.
+* False Positive Rate - incorrectly labelling someone as salaried is riskier
+
+----
+
 ## Possible Edge cases
 * Different file format (PDFs)
 * Salary paid in cash
