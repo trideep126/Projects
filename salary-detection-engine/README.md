@@ -15,6 +15,14 @@ on a pre-set of rules.
 
 ----
 
+## Assumptions
+* Raw Transactional Data
+* Bank statement is stored XLSX format
+* Minimum 3 months of data is available
+* No ground truth labels initially
+
+----
+
 ## Approach
 Encrypted file → Decrypt (msoffcrypto) → Parse Statements (Pandas) → Filter (Credit Only) → Detection Engine → JSON Output
 
