@@ -148,7 +148,7 @@ def find_salary_candidates(credit_df: pd.DataFrame)->Optional[pd.DataFrame]:
   current_cluster = [large_credits.iloc[0]]
 
   for i in range(1, len(large_credits)):
-    current_amount = large_credits.iloc[i]['credit']
+    current_amount = large_credits.iloc[1]['credit']
     cluster_mean = np.mean([c['credit'] for c in current_cluster])
 
     if abs(current_amount - cluster_mean) <= 0.15 * cluster_mean:
