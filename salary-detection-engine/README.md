@@ -99,6 +99,8 @@ However, majorly 3 metrics can be used:
 * Freelancer working on project vs salaried employee
 * Side income or Annual bonus or incentives
 
+![Architecture Diagram](design_docs/end_questions.png)
+
 ----
 
 ## Limitations
@@ -116,6 +118,8 @@ However, majorly 3 metrics can be used:
  * Advanced Clustering for salaried candidates (like KMeans)
  * Use NLP techniques for matching keywords, identify statement, categorize transaction purpose, extract entities(sender names, trnasaction types)
  * Multi-source income detection feature
+
+ ![Architecture Diagram](design_docs/future_work.png)
 
 ----
 
